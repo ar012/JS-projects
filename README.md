@@ -1,2 +1,1 @@
-# JavaScript
-# JavaScript
+# Learn JavaScript in Selftics
