@@ -1,40 +1,35 @@
-function sayHi() {
-    console.log("Welcome to java scripting learning");
-
+// Function declaration
+function add(a, b) {
+    return a+b;
 }
+console.log(add(10, 40));  
+// function add(a, b) {
+//     var c = a+b;
+// }
+// console.log(c);
 
-// sayHi();
-// sayHi();
-// sayHi();
 
-// passing parameter in function
-function sayHello(name) {
-    if (name){
-        console.log('Hello ' + name);
-    }else
-        console.log("How are you?");
+// Function expression
+var sub = function(x, y) {
+    return x - y;
 }
+console.log(sub(50, 30));
+
+var subtraction = sub;
+console.log(subtraction(400, 300));
+
+// Callback Function
+var subject = ['math', 'english', 'bangla', 'arabic', 'history'];
+
+console.log("Callback Function:");
+
+// subject.forEach(function(sub) {
+//     console.log(sub)
+// })
+
+subject.forEach(mysub);
 
 
-sayHello('manik');
-sayHello("anis");
-sayHello('');
-sayHello();
-
-console.log("\nChecking even or not:");
-function isEven(number){
-    if(number % 2 == 0){
-        return true;
-    }
-    return false;
+function mysub(sub) {
+    console.log(sub);
 }
-
-
-console.log(isEven(12));
-console.log(isEven(101));
-
-//Parameter and Arguments of a function
-function add(x,y){      //Here x and y are parameters of the function add
-  return x+y;
-}
-console.log(add(20,30));   //Here 2 and 3 are arguments of the function add

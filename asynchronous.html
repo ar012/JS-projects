@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AsynchronousJS</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      //
+      // console.log('This is first line');
+      // setTimeout(4000)
+      // console.log('This is second line');
+      // console.log('This is Third line');
+      // setTimeout(2000)
+      // console.log('This is Fourth line');
+      // setTimeout(5000)
+      // console.log('This is Fifth line');
+      //
+
+      // call-back function
+      console.log('This is First line');
+      setTimeout(function() {
+        console.log('This is Second line');
+      }, 4000)
+
+      console.log('This is Third line');
+      setTimeout(function() {
+        console.log('This is Fourth line');
+      }, 2000)
+
+      setTimeout(function() {
+        console.log('This is Fifth line');
+      }, 5000)
+    </script>
+
+  </body>
+</html>

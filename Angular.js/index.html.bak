@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8/">
+  <title>JavaScript Fundamentals</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <section class="content">
+  <div class="header">
+    <h1><script>document.write("Tutorial: JavaScript Fundamentals");</script></h1>
+  </div>
+
+  <div class="maincontent">
+
+    <script>
+      document.write("If you risk nothing then you risk everything!")
+      document.write("<br/>");
+    </script>
+
+    <script>
+      var myname = "Abdur Razzak";
+      document.write(myname);
+      document.write("<br/>");
+      var a = 10;
+      var b = 15;
+      var sum = a+b;
+      document.write("Sum is : " + sum);
+      document.write("<br/>");
+      prod = a*b;
+      document.write("Prod is : " + prod);
+      document.write("<br/>");
+      div = a/b;
+      document.write("Division is : " + div)
+      document.write("<br/>");
+    </script>
+
+    <script>
+      //local and global varriable:
+      var color = "red";
+
+      function funcionOne(){
+        window.color = "Green";
+        document.write("Inside : " + color);
+        document.write("<br/>");
+      }
+
+      funcionOne();
+      document.write("Outside : " + color);
+    </script>
+  </div>
+
+  <div id="show"></div>
+
+  <div>
+    <script>
+      var firstName = "Ashik";
+      var lastName = "Hossain"
+      var Name = firstName + lastName;
+      //document.getElementById('show').innerHTML = firstName + lastName
+      window.alert(Name);
+    
+    </script>
+  </div>
+  <div class="footer">
+    <h2><script>document.write("Selftics");</script></h2>
+  </div>
+</section>
+
+</body>
+
+</html>

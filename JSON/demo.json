@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Robb Toy",
+        "email": "Mallory61@gmail.com",
+        "address": {
+            "city": "Sisterview",
+            "country": "Malawi",
+            "lat": "39.3190",
+            "long": "14.9499"
+        }
+    },
+    {
+        "name": "Miss Eveline Fay",
+        "email": "Antonetta_OHara@yahoo.com",
+        "address": {
+            "city": "Armstronghaven",
+            "country": "Liberia",
+            "lat": "-43.5732",
+            "long": "117.7124"
+        }
+    },
+    {
+        "name": "Adela McCullough",
+        "email": "Luz46@yahoo.com",
+        "address": {
+            "city": "New Christophermouth",
+            "country": "Libyan Arab Jamahiriya",
+            "lat": "-18.1083",
+            "long": "48.4692"
+        }
+    },
+    {
+        "name": "Alan Zboncak",
+        "email": "Brenna86@yahoo.com",
+        "address": {
+            "city": "East Maverickshire",
+            "country": "Yemen",
+            "lat": "27.9434",
+            "long": "51.9294"
+        }
+    },
+    {
+        "name": "Warren Pfannerstill",
+        "email": "Michel_VonRueden@yahoo.com",
+        "address": {
+            "city": "Balistreristad",
+            "country": "Mali",
+            "lat": "-44.5870",
+            "long": "-1.4906"
+        }
+    },
+    {
+        "name": "Nedra McCullough",
+        "email": "Santino.Thiel5@yahoo.com",
+        "address": {
+            "city": "South Maritza",
+            "country": "United States Minor Outlying Islands",
+            "lat": "-88.0866",
+            "long": "-14.3685"
+        }
+    },
+    {
+        "name": "Ms. Jerald Spinka",
+        "email": "Liam63@gmail.com",
+        "address": {
+            "city": "East Alejandra",
+            "country": "Georgia",
+            "lat": "-5.0573",
+            "long": "-29.7380"
+        }
+    },
+    {
+        "name": "Vanessa Schaden",
+        "email": "Polly85@yahoo.com",
+        "address": {
+            "city": "New Rey",
+            "country": "Vietnam",
+            "lat": "-71.0584",
+            "long": "13.4914"
+        }
+    },
+    {
+        "name": "Wendell Hahn PhD",
+        "email": "Ally.Deckow@yahoo.com",
+        "address": {
+            "city": "New Robin",
+            "country": "Comoros",
+            "lat": "87.4519",
+            "long": "-35.9405"
+        }
+    },
+    {
+        "name": "Flossie Rice",
+        "email": "Giuseppe11@hotmail.com",
+        "address": {
+            "city": "Durganberg",
+            "country": "Saint Pierre and Miquelon",
+            "lat": "-24.6362",
+            "long": "56.9125"
+        }
+    }
+]

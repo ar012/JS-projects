@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JS object</title>
+  <h2>Hello</h2>
+</head>
+
+<body>
+
+  <h2>My First JavaScript</h2>
+  <button type="button" name="button" onclick="document.getElementById('demo1').innerHTML = Date()">Clik me to display Date and Time.</button>
+
+  <p id="demo1"></p>
+
+  <h2>JavaScript Variables</h2>
+
+
+  <p>There are two different ways to access an object property.</p>
+  <p>We can use person.property or person["property"].</p>
+
+  <p id="demo"></p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
+
+
+
+
+  <script type="text/javascript">
+    // Create and display a variabl:
+    var car = "Fiat";
+    document.getElementById("demo").innerHTML = car;
+    // Create an object
+    var person = {
+      firstName: "John",
+      lastName: "Doe",
+      age: 50,
+      eyeColor: "blue",
+      country: "US",
+      fullName: function() {
+        return this.firstName + " " + this.lastName;
+      }
+    };
+
+    // Display some data from the object:
+    document.getElementById("demo2").innerHTML = person.firstName + " is " + person.age + " years old " + person["country"];
+
+    document.getElementById("demo3").innerHTML = person.fullName();
+
+    var myObj, x;
+    myObj = {
+      name: "Arif",
+      age: 25,
+      city: "Rajshahi"
+    };
+    myObj.name = "Manik";
+    document.getElementById("demo4").innerHTML = myObj.name;
+  </script>
+  <p id="demo4"></p>
+
+
+  <button type="button" name="button">click me</button>
+
+</body>
+
+</html>
